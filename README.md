@@ -4,32 +4,52 @@
 
 >1.  Install python libraries `pip install -r requirements.txt`
 >
->2.  Start up the script followed by the phone number `python3 FireFly.py <number>` 
+>2.  Start up the script followed by the phone number `python3 FireFly.py <number 1> <number 2> (etc.)` 
 >
->   <img src="pic.jpg">
+>   <img src="pic.PNG">
 
 - *Disclaimer*
 
 > **This tool is for educational purposes only. I am not responsible for any damage you cause**
 
-- *Output*
+- *Output (the \* are sensored informations, hidden by me)*
 
-> [+] Phone number information gathering
-> --------------------------------------
->  - Getting Country               [ OK ]
->  - Getting Country Name   [ OK ]
->  - Getting Location              [ OK ]
->  - Getting Carrier                 [ OK ]
->  - Getting Device                  [ OK ]
->
-> [+] Information Output
-> --------------------------------------
->  - Phone number: 
->  - Country: 
->  - Country Name: 
->  - Location: 
->  - Carrier: 
->  - Device: 
+```
+┌──(root💀c00kie)-[/mnt/c/Users/Utilisateur/Desktop/GitHub/FireFly]
+└─# py FireFly.py +* +* +133713371337
+
+   __ _          __ _
+  / _(_)_ _ ___ / _| |_  _
+ |  _| | '_/ -_)  _| | || | A fork of https://github.com/Lexxrt/FireFly
+ |_| |_|_| \___|_| |_|\_, | by https://github.com/dropsql
+                      |__/
+
+
+─────────────────────────────────────────────────────────────── results for number: '+*' ────────────────────────────────────────────────────────────────
+[+] Valid: True
+[+] Number: *
+[+] Local Format : *
+[+] International Format : +*
+[+] Country Prefix : +*
+[+] Country Code : *
+[+] Country Name : *
+[+] Carrier: *
+[+] Line Type : mobile
+─────────────────────────────────────────────────────────────── results for number: '+*' ────────────────────────────────────────────────────────────────
+[+] Valid: True
+[+] Number: *
+[+] Local Format : *
+[+] International Format : +*
+[+] Country Prefix : +*
+[+] Country Code : *
+[+] Country Name : *
+[+] Carrier: *
+[+] Line Type : mobile
+─────────────────────────────────────────────────────────────── results for number: '+133713371337' ───────────────────────────────────────────────────────────────
+[-] the phone number seems invalid :/
+┌──(root💀c00kie)-[/mnt/c/Users/Utilisateur/Desktop/GitHub/FireFly]
+└─#
+```
 
 - *NOTE*
 
