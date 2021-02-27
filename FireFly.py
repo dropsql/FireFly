@@ -1,4 +1,4 @@
-API_KEY = ''
+API_KEY = '' # https://numverify.com/
 API_URL = 'http://apilayer.net/api/validate?access_key={key}&number={phone_number}&country_code=&format={format}'
 
 import requests, sys
